@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* swiper */
+swiper-container {
+  width: 180px;
+  height: 260px;
+}
+
+swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+swiper-slide:nth-child(1n) {
+  background: url(https://images.unsplash.com/photo-1680094512268-1da9a6481c84?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+}
+
+swiper-slide:nth-child(2n) {
+  background: url(https://images.unsplash.com/photo-1521459072603-884d62a6f456?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+}
+
+swiper-slide:nth-child(3n) {
+  background: url(https://i.pinimg.com/564x/9e/f5/9e/9ef59e757a3261885bd0e293caaeff1a.jpg);
+  background-size: cover;
+}
+
+swiper-slide:nth-child(4n) {
+  background: url(https://i.pinimg.com/564x/00/86/86/0086865f168e5393559b126e99e96b56.jpg);
+  background-size: cover;
+}
+
+swiper-slide:nth-child(5n) {
+  background: url(https://i.pinimg.com/564x/14/4a/96/144a96966f927919e2baa7831a09412d.jpg);
+  background-size: cover;
+}
+
+swiper-slide:nth-child(6n) {
+  background: url(https://i.pinimg.com/564x/22/f9/28/22f928adc3360f2b6288e33ab0fc5597.jpg);
+  background-size: cover;
+}
+
+/* End Of Swiper */
+
+/* Navbar Style*/
+.navbar-brand span {
+  color: blue;
+}
+/* End Of Navbar Style */
+
+.navbar-brand {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Footer */
+.footer {
+  background-color: #222831;
+  color: #eeeeee;
+}
+
+.footer span {
+  color: #eeeeee;
+}
+
+.content-footer {
+  padding: 0.5rem;
+}
+
+.content-footer .text-p {
+  font-size: small;
+}
+
+.copyright {
+  padding-top: 0.5rem;
+  border-top: 2px solid #eeeeee;
+}
+
+.copyright a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.copyright a:hover {
+  color: #eeeeee;
+}
